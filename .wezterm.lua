@@ -41,6 +41,18 @@ config = {
 		top = 0,
 		bottom = 0,
 	},
+	keys = {
+		{
+			key = 'n',
+			mods = 'CTRL|SHIFT',
+			action = wezterm.action.SplitHorizontal { domain = 'CurrentPaneDomain' },
+		},
+		{
+			key = 'w',
+			mods = 'CTRL|SHIFT',
+			action = wezterm.action.CloseCurrentPane { confirm = false },
+		}
+	}
 }
 
 return config
