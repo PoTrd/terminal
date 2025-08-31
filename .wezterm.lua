@@ -12,6 +12,8 @@ config = {
 	font = wezterm.font("JetBrains Mono", { weight = "Bold" }),
 	font_size = 12.5,
 
+	default_prog = { "/bin/zsh", "-c", "export PATH=$PATH:/opt/homebrew/bin:/usr/local/bin; neofetch; exec zsh" },
+
 	background = {
 		{
 			source = {
