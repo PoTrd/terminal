@@ -1,6 +1,6 @@
 # Terminal configuration 
 
-> Here is my terminal confitguration usingsur **WezTerm**, **Starship** et **Zsh**
+> Here is my terminal confitguration using **WezTerm**, **Starship** et **Zsh**
 
 <p align="center">
   <img src="https://img.shields.io/badge/Terminal-WezTerm-orange?logo=windows-terminal&logoColor=white" alt="WezTerm Badge"/>
